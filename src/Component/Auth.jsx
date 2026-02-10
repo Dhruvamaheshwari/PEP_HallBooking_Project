@@ -38,7 +38,7 @@ function Auth() {
   };
 
   return (
-    <div className="min-h-screen bg-zinc-950">
+    <div className="app-shell">
       {currentPage === "login" && (
         <Login
           onLoginSuccess={handleLoginSuccess}
